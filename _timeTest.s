@@ -7,6 +7,6 @@ mov w8, w0              // store argument
 
 .align 2
 loop_start:
-    sub w8, w8, #1      // w8--
+    sub  w8, w8, #1      // w8--
     cbnz w8, loop_start // jnz 
     ret
