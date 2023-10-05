@@ -1,9 +1,9 @@
 CXX = clang
 CXX_FLAGS = -nostartfiles -e _start
 
-ASM_SOURCE = helloWorld.s
+ASM_SOURCE = merryChristmas.s
 
-OUTPUT = hello
+OUTPUT = merry
 
 $(OUTPUT): $(ASM_SOURCE)
 	@echo  "Compiling and linking..."
